@@ -1,0 +1,41 @@
+.bottom-header {
+    background-color: #ff5c00 !important;
+}
+.me-auto>a.nav-link,
+.nav-item>a {
+    color: #fff !important;
+}
+.me-auto>.nav-link:hover {
+    background-color: #cc4a00 !important;
+}
+.me-auto>.nav-link.active {
+    background-color: #cc4a00 !important;
+}
+
+.nav-products {
+    color: #000 !important;
+}
+
+.nav-products:hover {
+    color: #ff5c00 !important;
+}
+
+.account {
+    position: absolute;
+    right: 0;
+    padding: 8px 16px;
+}
+
+.account i {
+    color: #fff;
+}
+
+.account a{
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+}
+.account a:hover,
+.account a:active {
+    color: #ccc !important;
+}
