@@ -1,14 +1,72 @@
+.top-header {
+display: flex;
+}
+
+.header-logo {
+    width: 25%;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 12px 30px ;
+    
+}
+
+.header-info {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    color: #555555;
+    
+}
+
+.header-info .delivery .bi {
+    display: inline-block;
+    text-align: center;
+    line-height: 50%;
+    font-size: 36px;
+    margin-right: 8px;
+    color: #ff5c00;
+}
+
+.header-info .text {
+    display: inline-block;
+}
+
+.header-info>div {
+    padding: 12px;
+}
+
+.text-cart {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+/* -------------------------------- */
+
 .bottom-header {
     background-color: #ff5c00 !important;
+    z-index: 1;
 }
+
+.container {
+    position: relative;
+}
+
 .me-auto>a.nav-link,
 .nav-item>a {
     color: #fff !important;
+    padding: 16px 8px;
+    font-size: 17px;
 }
 .me-auto>.nav-link:hover {
     background-color: #cc4a00 !important;
 }
 .me-auto>.nav-link.active {
+    background-color: #cc4a00 !important;
+}
+
+#basic-nav-dropdown:hover {
     background-color: #cc4a00 !important;
 }
 
@@ -20,9 +78,35 @@
     color: #ff5c00 !important;
 }
 
+
+.input-group {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px;
+    margin-right: 200px;
+}
+
+.input-group .bi {
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.input-group .bi:hover {
+    color: #ff5c00;
+}
+
+.input-group-text {
+    background-color: #000;
+}
+
 .account {
     position: absolute;
     right: 0;
+    top: 50%;
+    transform: translateY(-50%);
     padding: 8px 16px;
 }
 
@@ -39,3 +123,4 @@
 .account a:active {
     color: #ccc !important;
 }
+

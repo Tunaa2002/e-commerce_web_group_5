@@ -1,4 +1,5 @@
-import { Link, NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -6,11 +7,45 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './header.css';
 
 
+function DeliveryInfo({ iconClass, info }) {
+    return (
+      <div className="delivery">
+        <i className={`bi ${iconClass}`}></i>
+        <div className="text">
+          {info.map((line, index) => (
+            <React.Fragment key={index}>
+              <span>{line}</span>
+              <br />
+            </React.Fragment>
+          ))}
+        </div>
+      </div>
+    );
+  }
+  
 function Header(){
     return(
         <div>
             <div className="top-header">
-                <div>Nhóm 5</div>
+                <div className="header-logo">Nhóm 5</div>
+                <div className="header-info">
+                    <DeliveryInfo
+                        iconClass="bi-house"
+                        info={['96A Đường Trần Phú, P. Mộ Lao', 'Hà Đông, Hà Nội']}
+                    />
+                    <DeliveryInfo
+                      iconClass="bi-envelope-plus"
+                      info={['nhom5ec@gmail.com', '0999999999']}
+                    />
+                    <DeliveryInfo
+                      iconClass="bi-send"
+                      info={['Miễn Phí Vận Chuyển', 'Đơn hàng trên 500k']}
+                    />
+                    <DeliveryInfo
+                      iconClass="bi-cart"
+                      info={['Giỏ Hàng', '₫']}
+                    />
+                </div>
             </div>
             <div className="bottom-header">
                 <Container>
@@ -23,12 +58,20 @@ function Header(){
                         </NavDropdown>
                         <NavLink to="/tin-tuc" className="nav-link">Tin tức</NavLink>
                         <NavLink to="/lien-he" className="nav-link">Liên hệ</NavLink>
+                        <div className="search">
+                        </div>
+                    </Nav>
+                            <div class="input-group rounded">
+                                <input type="search" class="form-control rounded" placeholder="Tìm kiếm" aria-label="Search" aria-describedby="search-addon" />
+                                <span class="input-group-text border-0" id="search-addon">
+                                    <i class="bi bi-search"></i>
+                                </span>
+                            </div>
                         <div className="account">
                             <NavLink to="/dang-nhap" className="sign-in">Đăng nhập</NavLink>
                             <i>|</i>
                             <NavLink to="/dang-ki" className="sign-up">Đăng kí</NavLink>
                         </div>
-                    </Nav>
                 </Container>
             </div>
         </div>
