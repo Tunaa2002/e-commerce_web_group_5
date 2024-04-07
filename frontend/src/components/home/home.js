@@ -3,11 +3,32 @@ import { Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './home.css';
 
+function Items({title, backgroundColor, color, iconClass}){
+    return(
+        <div className='content-container'>
+            <div className='title' style={{ borderTop: `2px solid ${backgroundColor}`}}>
+                <h3 style={{backgroundColor: backgroundColor, color: color}}>
+                    <i className={`bi ${iconClass}`} style={{color: color}}></i>
+                    {title}
+                </h3>
+            </div>
+            <div className='module-content'>
+                
+            </div>
+        </div>
+    );
+}
+
 function Home() {
     const images = [
-        'https://up-anh.vi-vn.vn/img/1711604253_c1bb538afb12c37c575d615b6f1c1db9.jpg',
-        'https://up-anh.vi-vn.vn/img/1711604333_895ccad090229a9a948af0a5b4fd826f.jpg',
-        'https://up-anh.vi-vn.vn/img/1711604404_06319b30b5bb43df2ada9e0093ab9198.jpg'
+        'https://sieuthigiamgia.langsonweb.com/wp-content/uploads/2018/10/banner_03.jpg',
+        // 'https://up-anh.vi-vn.vn/img/1711604333_895ccad090229a9a948af0a5b4fd826f.jpg',
+        'https://sieuthigiamgia.langsonweb.com/wp-content/uploads/2018/10/banner_01.jpg'
+    ];
+
+    const bannerIMG = [
+        'https://sieuthigiamgia.langsonweb.com/wp-content/uploads/2018/10/bn-2-1.jpg',
+        'https://sieuthigiamgia.langsonweb.com/wp-content/uploads/2018/10/bn-1-1.jpg'
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -67,23 +88,45 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="slider-container">
-                        <div className="slider">
-                            <img
-                                src={images[currentImageIndex]}
-                                alt={`Slide ${currentImageIndex}`}
-                                onClick={handleNext}
-                            />
-                            <i
-                                className="bi bi-chevron-compact-left"
-                                onClick={handlePrev}
-                            ></i>
-                            <i
-                                className="bi bi-chevron-compact-right"
-                                onClick={handleNext}
-                            ></i>
+                    <div className='banner-container'>
+                        <div className="slider-container">
+                            <div className="slider">
+                                <img
+                                    src={images[currentImageIndex]}
+                                    alt={`Slide ${currentImageIndex}`}
+                                    onClick={handleNext}
+                                />
+                                <i
+                                    className="bi bi-chevron-compact-left"
+                                    onClick={handlePrev}
+                                ></i>
+                                <i
+                                    className="bi bi-chevron-compact-right"
+                                    onClick={handleNext}
+                                ></i>
+                            </div>
+                        </div>
+                        <div className='banner'>
+                            <div className='item1 poster'>
+                                <img src={bannerIMG[0]}/>
+                            </div>
+                            <div className='item2 poster'>
+                                <img src={bannerIMG[1]}/>
+                            </div>
                         </div>
                     </div>
+                    <Items 
+                        title="Hot Deal"
+                        backgroundColor= "#ff5c00"
+                        color = "#fff"
+                        iconClass="bi-fire"
+                    />
+                    <Items 
+                        title="Quần"
+                        backgroundColor= "#dd3333"
+                        color = "#fff"
+                        iconClass="bi-emoji-kiss-fill"
+                    />
                 </div>
             </Container>
         </div>

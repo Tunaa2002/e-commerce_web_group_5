@@ -1,5 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import "./App.css";
 import Home from "./components/home/home";
 import Header from "./components/header/header";
 function App() {

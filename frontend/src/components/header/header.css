@@ -112,12 +112,14 @@ display: flex;
 
 .account i {
     color: #fff;
+    margin: 0 2px;
 }
 
 .account a{
     color: #fff !important;
     text-align: center;
     text-decoration: none;
+    font-size: 14px;
 }
 .account a:hover,
 .account a:active {

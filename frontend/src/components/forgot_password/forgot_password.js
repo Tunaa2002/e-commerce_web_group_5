@@ -1,12 +1,12 @@
-import "./sign_in.css";
+import "./forgot_password.css";
 import { NavLink } from "react-router-dom";
 
-function SignIn(){
+function ForgotPassword(){
     return(
-        <div className="sign-in-container">
-            <div className="sign-in">
+        <div className="forgot-password-container">
+            <div className="forgot-password">
                 <form action="#">
-                    <h2>Đăng nhập</h2>
+                    <h2>Quên mật khẩu</h2>
                     <div class="form-group">
                         <label for="username">Tài khoản:</label>
                         <input type="text" id="username" name="username" required />
@@ -15,13 +15,12 @@ function SignIn(){
                         <label for="password">Mật khẩu:</label>
                         <input type="password" id="password" name="password" required />
                     </div>
-                    <NavLink to="/quen-mat-khau" className="nav-link">Quên mật khẩu</NavLink>
-                    <NavLink to="/dang-ki" className="nav-link">Nhấn vào đây nếu chưa có tài khoản</NavLink>
-                    <button type="submit">Đăng nhập</button>
+                    <NavLink to="/dang-nhap" className="nav-link">Đến đăng nhập</NavLink>
+                    <button type="submit">Xác nhận</button>
                 </form>
             </div>
         </div>
     );
 }
 
-export default SignIn;
+export default ForgotPassword;
