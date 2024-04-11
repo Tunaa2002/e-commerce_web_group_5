@@ -18,10 +18,17 @@ root.render(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App />}>
-                    <Route index path='/trang-chu' element={<Home />} />
+                    <Route index element={<Home />} />
+                    <Route path='/trang-chu' element={<Home />} />
                     <Route path="/gioi-thieu" element={<Introduction />} />
-                    <Route path='/quan' element={<Home />}/>
-                    <Route path='/ao' element={<Home />}/>
+                    <Route path='/sach-hoc-thuat' element={<Home />}/>
+                    <Route path='/tieu-thuyet' element={<Home />}/>
+                    <Route path='/sach-ky-nang' element={<Home />}/>
+                    <Route path='/sach-nau-an-va-am-thuc' element={<Home />}/>
+                    <Route path='/sach-thieu-nhi' element={<Home />}/>
+                    <Route path='/sach-y-hoc-va-suc-khoe' element={<Home />}/>
+                    <Route path='/sach-van-hoa-va-du-lich' element={<Home />}/>
+                    <Route path='/sach-hoc-ngoai-ngu' element={<Home />}/>
                     <Route path='/tin-tuc' element={<News />}/>
                     <Route path="/lien-he" element={<Contact />} />
                     <Route path="/dang-nhap" element={<SignIn />} />

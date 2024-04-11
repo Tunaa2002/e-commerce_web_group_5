@@ -25,12 +25,12 @@
     padding-left: 15px;
 }
 
-.vertical-name {
+.body-container .vertical-name {
     border-radius: 6px 6px 0 0;
     box-shadow: 0 0 5px #bdbcbc;
 }
 
-.vertical-name .title {
+.body-container .vertical-name .title {
     display: block;
     width: 100%;
     background-color: #000;

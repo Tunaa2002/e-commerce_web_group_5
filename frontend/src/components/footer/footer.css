@@ -1,0 +1,156 @@
+.clear-fix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.footer-container {
+    width: 100%;
+}
+
+.dv-builder-full {
+    margin-top: 64px;
+}
+
+.dv-module-container .wpcf7-form-control-wrap {
+    position: relative;
+}
+
+.dv-module-container .form-control {
+    border: 1px solid #ebebeb;
+    background: transparent;
+    color: #555;
+    font-size: 12px;
+    width: 100%;
+    font-weight: normal;
+    padding: 0 20px;
+    height: 51px;
+    border-radius: 50px;
+}
+
+.dv-module-container .newsletters-btn {
+    color: #fff;
+    height: 52px;
+    top: -1px;
+    background: #ff5e00;
+    bottom: -1px;
+    width: auto;
+    padding: 0 20px;
+    border-radius: 0px 40px 40px 0;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    right: -1px;
+    border: none;
+}
+
+.dv-module-container .newsletters-btn:hover {
+    color: #000;
+}
+
+.dv-module-content {
+    display: inline-block;
+}
+
+.coupon {
+    width: 50%;
+    font-size: 14px;
+}
+
+.coupon i {
+    font-weight: 700;
+    margin-right: 0px;
+    font-size: 24px;
+}
+
+.coupon .text-1-coupon {
+    font-weight: 700;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.coupon>span>span{
+    margin: 0 5px;
+    color: #ff5e00;
+}
+
+.coupon-email {
+    width: 30%;
+}
+
+.quang-cao {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+.dv-module-content .bi {
+    padding: 0 5px;
+    line-height: 52px;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+}
+
+.footer-menu h4.title {
+    font-size: 14px !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #c2c6c6;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.footer-menu h4.title span {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: auto;
+    bottom: -2px;
+    background: #ff5e00;
+    left: 0;
+}
+
+.footer-menu a.nav-link.nav-link {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.footer-menu a.nav-link.nav-link:hover {
+    color: #ff5e00;
+}
+
+.footer-menu-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 32px;
+    border-top: 3px solid #ff5e00;
+}
+
+.footer-menu-container .container {
+    margin-top: 20px;
+}
+
+.footer-menu-container {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.footer-menu {
+    display: inline-block;
+    width: calc(100% / 5);
+    margin-bottom: 20px;
+    float: left;
+    padding: 0 15px;
+}
+
+.link-icon {
+    display: block;
+}
