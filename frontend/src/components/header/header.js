@@ -53,7 +53,7 @@ function Header() {
         </div>
       </div>
       <div className="bottom-header">
-        <Container>
+        <Container className="clear-fix">
           <Nav className="me-auto">
             <NavLink to="/trang-chu" className="nav-link">
               Trang chủ
@@ -117,19 +117,55 @@ function Header() {
             <NavLink to="/lien-he" className="nav-link">
               Liên hệ
             </NavLink>
-            <div className="search"></div>
           </Nav>
-          <div class="input-group rounded">
-            <input
-              type="search"
-              class="form-control rounded"
-              placeholder="Tìm kiếm"
-              aria-label="Search"
-              aria-describedby="search-addon"
-            />
-            <span class="input-group-text border-0" id="search-addon">
-              <i class="bi bi-search"></i>
-            </span>
+          <div className="nav-list">
+            {/* <i className="bi bi-list"></i> */}
+            <NavDropdown className="custom-dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item
+                href="/trang-chu"
+                className="nav-link nav"
+              >
+                Trang chủ
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href="/gioi-thieu"
+                className="nav-link nav"
+              >
+                Giới thiệu
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href="/"
+                className="nav-link nav"
+              >
+                Cửa hàng
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href="/tin-tuc"
+                className="nav-link nav"
+              >
+                Tin tức
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href="/lien-he"
+                className="nav-link nav"
+              >
+                Liên hệ
+              </NavDropdown.Item>
+            </NavDropdown>
+          </div>
+          <div className="search-container clear-fix">
+            <div class="input-group rounded">
+              <input
+                type="search"
+                class="form-control rounded"
+                placeholder="Tìm kiếm"
+                aria-label="Search"
+                aria-describedby="search-addon"
+              />
+              <span class="input-group-text border-0" id="search-addon">
+                <i class="bi bi-search"></i>
+              </span>
+            </div>
           </div>
           <div className="account">
             <NavLink to="/dang-nhap" className="sign-in">

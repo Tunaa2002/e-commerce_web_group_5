@@ -1,0 +1,70 @@
+.clear-fix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.contact-container {
+    margin-top: 64px;
+}
+
+.contact-container .menu-category {
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+
+.content-detail {
+    display: inline-block;
+    width: 75%;
+    float: left;
+}
+
+.contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+.contact-form-container form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.contact-form-container form .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.contact-form-container form .row input,
+.contact-form-container form .row textarea {
+  width: calc(50% - 10px);
+}
+
+/* Điều chỉnh kích thước và khoảng cách giữa các trường */
+.contact-form-container form .row input,
+.contact-form-container form .row textarea {
+  padding: 10px;
+}
+
+.contact-title,
+.contact-content {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.contact-form-container .btn-primary {
+  padding: 10px 16px;
+  background-color: #ff5e00;
+  border: none;
+}
+
+.contact-form-container .btn-primary:hover {
+  background-color: #d55206;
+}
+
+

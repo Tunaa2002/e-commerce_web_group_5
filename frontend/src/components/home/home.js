@@ -76,14 +76,13 @@ function Home() {
     const tabData = [
         { iconClass: "bi-suit-heart", title: "Hot Deal" },
         { iconClass: "bi-suit-heart", title: "Tiểu thuyết" },
-        { iconClass: "bi-suit-heart", title: "Hot Deal" },
-        { iconClass: "bi-suit-heart", title: "Hot Deal" },
-        { iconClass: "bi-suit-heart", title: "Hot Deal" },
-        { iconClass: "bi-suit-heart", title: "Hot Deal" },
-        { iconClass: "bi-suit-heart", title: "Hot Deal" },
-        { iconClass: "bi-suit-heart", title: "Hot Deal" },
-        { iconClass: "bi-suit-heart", title: "Hot Deal" },
-        { iconClass: "bi-suit-heart", title: "Hot Deal" }
+        { iconClass: "bi-suit-heart", title: "Sách kỹ năng" },
+        { iconClass: "bi-suit-heart", title: "Sách thiếu nhi" },
+        { iconClass: "bi-suit-heart", title: "Sách học thuật" },
+        { iconClass: "bi-suit-heart", title: "Sách nấu ăn & ẩm thực" },
+        { iconClass: "bi-suit-heart", title: "Sách y học & sức khỏe" },
+        { iconClass: "bi-suit-heart", title: "Sách văn hóa & du lịch" },
+        { iconClass: "bi-suit-heart", title: "Sách học ngoại ngữ" },
     ];
 
     const itemsData = [

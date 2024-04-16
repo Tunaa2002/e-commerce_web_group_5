@@ -1,0 +1,21 @@
+.clear-fix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.introduction-container {
+    margin-top: 64px;
+}
+
+.introduction-container .menu-category {
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+
+.content-detail {
+    display: inline-block;
+    width: 75%;
+    float: left;
+}

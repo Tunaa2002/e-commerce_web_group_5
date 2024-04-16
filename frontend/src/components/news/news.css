@@ -1,0 +1,21 @@
+.clear-fix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.news-container {
+    margin-top: 64px;
+}
+
+.news-container .menu-category {
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+
+.content-detail {
+    display: inline-block;
+    width: 75%;
+    float: left;
+}
