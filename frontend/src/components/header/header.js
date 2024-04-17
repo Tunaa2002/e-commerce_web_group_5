@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -21,7 +21,8 @@ function DeliveryInfo({ iconClass, info }) {
   );
 }
 
-function Header() {
+function Header( isAdmin ) {
+  const [adminLoggedIn, setAdminLoggedIn] = useState(1);
   window.addEventListener("scroll", function () {
     var bottomHeader = document.querySelector(".bottom-header");
     var scrollPosition = window.scrollY;
@@ -58,6 +59,20 @@ function Header() {
             <NavLink to="/trang-chu" className="nav-link">
               Trang chủ
             </NavLink>
+            {adminLoggedIn ? (
+              <>
+                <NavLink to="/quan-ly-sach" className="nav-link">
+                  Quản lý sách
+                </NavLink>
+                <NavLink to="/quan-ly-don-hang" className="nav-link">
+                  Quản lý đơn hàng
+                </NavLink>
+                <NavLink to="/thong-ke" className="nav-link">
+                  Thống kê
+                </NavLink>
+              </>
+            ) : (
+              <>
             <NavLink to="/gioi-thieu" className="nav-link">
               Giới thiệu
             </NavLink>
@@ -117,6 +132,8 @@ function Header() {
             <NavLink to="/lien-he" className="nav-link">
               Liên hệ
             </NavLink>
+            </>
+            )}
           </Nav>
           <div className="nav-list">
             {/* <i className="bi bi-list"></i> */}

@@ -1,0 +1,63 @@
+.order-manage {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 10px #ff5c00;
+}
+
+.order-block {
+    width: 20%;
+    border: solid #ff5c00;
+    display: flex;
+    flex-direction: column;
+}
+
+.infor-block {
+    width: 80%;
+    border: solid #ff5c00;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    text-align: center ;
+    color: #fff;
+}
+
+h5 {
+    margin-left: 5px;
+}
+
+.order-title, .infor-title {
+    align-self: center;
+    background-color: #ff5c00;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.order-title {
+    width: 60%;
+}
+
+.infor-title {
+    width: 10%;
+}
+
+th:first-child {
+    width: 20%;
+}
+
+.order-infor {
+    margin-top: 10px;
+}
+
+.option {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+.order-option:last-child {
+    margin-bottom: 10px;
+}
