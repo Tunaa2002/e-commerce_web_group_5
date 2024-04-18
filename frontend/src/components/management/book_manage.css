@@ -13,45 +13,46 @@
     font-size: 16px;
 }
 
-.btn-search {
-    padding: 8px 16px;
-    background-color: #ff5c00;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.btn-search:hover {
-    background-color: #ff5c00;
-}
-
-table {
+.books-container {
     width: 80%;
-    border-collapse: collapse;
     margin-left: 10%;
+    border: 1px solid #000;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
-table th, table td {
+.books-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.books-table th,
+.books-table td {
     padding: 8px;
     border: 1px solid #ccc;
 }
 
-table th {
+.books-table th {
     background-color: #f2f2f2;
     font-weight: bold;
 }
 
-table tr:nth-child(even) {
+.books-table tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-table tr:hover {
+.books-table tr:hover {
     background-color: #f2f2f2;
 }
 
-button {
+.page-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.page-selection button {
+    margin: 0 5px;
     padding: 6px 12px;
     background-color: #007bff;
     color: #fff;
@@ -61,7 +62,7 @@ button {
     font-size: 14px;
 }
 
-button:hover {
+.page-selection button:hover {
     background-color: #ff5c00;
 }
 
@@ -70,3 +71,87 @@ button:hover {
     justify-content: center;
     margin-top: 20px;
 }
+
+table th:first-child {
+    width: 2%;
+}
+
+table th:nth-child(2) {
+    width: 28%;
+}
+
+table th:nth-child(3) {
+    width: 20%;
+}
+table th:nth-child(4) {
+    width: 10%;
+}
+table th:nth-child(5) {
+    width: 5%;
+}
+table th:nth-child(6) {
+    width: 15%;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+td button {
+    flex: 1;
+}
+
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 90%;
+    overflow: auto;
+  }
+
+  .popup-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .popup-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .popup-content input,
+  .popup-content textarea,
+  .popup-content button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .popup-content button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .popup-content button:hover {
+    background-color: #0056b3;
+  }

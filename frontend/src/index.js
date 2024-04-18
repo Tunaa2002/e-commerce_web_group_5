@@ -13,6 +13,7 @@ import SignIn from './components/sign_in/sign_in.js';
 import ForgotPassword from './components/forgot_password/forgot_password.js';
 import ManageBooks from './components/management/book_manage.js';
 import OrderManage from './components/management/oder_manage.js';
+import BookPopup from './components/management/book_popup.js';
 
 const root = ReactDOM.createRoot((document.getElementById('root')));
 root.render(
@@ -38,6 +39,7 @@ root.render(
                     <Route path="/quen-mat-khau" element={<ForgotPassword />} />
                     <Route path="/quan-ly-sach" element={<ManageBooks />} />
                     <Route path="/quan-ly-don-hang" element={<OrderManage />} />
+                    <Route path="/test" element={<BookPopup />} />
                 </Route>
             </Routes>
         </BrowserRouter>
