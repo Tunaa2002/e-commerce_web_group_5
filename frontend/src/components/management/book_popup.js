@@ -58,7 +58,10 @@ function BookPopup(props) {
   return (
     <div className="popup-container">
       <div className="popup-content">
+        <div className="popup-head">
         <h2>{props.book ? "Chỉnh sửa sách" : "Thêm sách mới"}</h2>
+        <button type="button" class="bi bi-x-square-fill" onClick={props.onClose}></button>
+        </div>
         <div>
           <label>
             Mã sách:
@@ -122,7 +125,7 @@ function BookPopup(props) {
               onChange={handleChange}
             />
           </label>
-          <button onClick={props.type === "edit" ? handleEditBook : handleAddBook}>{props.book ? "Lưu" : "Thêm sách"}</button>
+          <button class="btn btn-primary" onClick={props.type === "edit" ? handleEditBook : handleAddBook}>{props.book ? "Lưu" : "Thêm sách"}</button>
         </div>
       </div>
     </div>

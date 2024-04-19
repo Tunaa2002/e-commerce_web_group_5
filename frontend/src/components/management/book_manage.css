@@ -128,6 +128,7 @@ td button {
 
   .popup-content h2 {
     margin-bottom: 20px;
+    justify-self: center;
   }
   
   .popup-content label {
@@ -145,13 +146,23 @@ td button {
     border-radius: 4px;
   }
   
-  .popup-content button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
+  .popup-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
   }
-  
-  .popup-content button:hover {
-    background-color: #0056b3;
+  .popup-head button{
+    cursor: pointer;
+    width: 5%;
+  }
+
+  .popup-head button:hover{
+    background-color: red;
+  }
+
+  .popup-head h2 {
+    margin: 0;
+    text-align: center; 
+    flex-grow: 1;
   }

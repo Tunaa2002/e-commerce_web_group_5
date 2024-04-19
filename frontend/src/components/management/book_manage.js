@@ -99,14 +99,11 @@ function ManageBooks() {
         </button>
       </div>
       {popupType && (
-        <div className="popup-container" onClick={handleClosePopup}>
-        <div className="popup-content" onClick={(e) => e.stopPropagation()}>
             <BookPopup
               book={popupBook}
               type={popupType}
+              onClose={handleClosePopup}
             />
-          </div>
-        </div>
       )}
     </div>
   );
