@@ -1,63 +1,122 @@
 .order-manage {
     display: flex;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 20px;
-    border-radius: 10px #ff5c00;
-}
-
-.order-block {
-    width: 20%;
-    border: solid #ff5c00;
+  }
+  
+  .order-block {
+    width: 25%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+  }
+  
+  .order-block .order-title {
+    margin-bottom: 20px;
+  }
+  
+  .order-option {
     display: flex;
     flex-direction: column;
-}
-
-.infor-block {
-    width: 80%;
-    border: solid #ff5c00;
+  }
+  
+  .option {
     display: flex;
-    flex-direction: column;
-}
-
-h4 {
-    text-align: center ;
-    color: #fff;
-}
-
-h5 {
-    margin-left: 5px;
-}
-
-.order-title, .infor-title {
-    align-self: center;
-    background-color: #ff5c00;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-
-.order-title {
-    width: 60%;
-}
-
-.infor-title {
-    width: 10%;
-}
-
-th:first-child {
-    width: 20%;
-}
-
-.order-infor {
-    margin-top: 10px;
-}
-
-.option {
-    display: flex;
-    margin-left: 20%;
-    margin-top: 10px;
-}
-
-.order-option:last-child {
+    align-items: center;
     margin-bottom: 10px;
-}
+    cursor: pointer;
+  }
+  
+  .option i {
+    margin-right: 10px;
+  }
+  
+  .option h5 {
+    margin: 0;
+  }
+  
+  .infor-block {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .infor-block .infor-title {
+    margin-bottom: 20px;
+  }
+  
+  .order-infor {
+    overflow-x: auto;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-table th,
+  .order-table td {
+    padding: 8px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .order-table th {
+    background-color: #f8f9fa;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .order-table td {
+    text-align: left;
+  }
+  
+  .order-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .order-table tbody tr td:last-child {
+    display: flex;
+  }
+  
+  .order-table tbody tr td button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .order-table tbody tr td button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .order-manage {
+      flex-direction: column;
+    }
+    
+    .order-block {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #dee2e6;
+    }
+    
+    .infor-block {
+      width: 100%;
+    }
+  }
+
+  .order-table th:first-child{
+    width: 15%;
+  }
+
+  .order-table :nth-child(2){
+    width: 30%;
+  }
+  .order-table :nth-child(3){
+    width: 15%;
+  }
+  .order-table :nth-child(4){
+    width: 15%;
+  }

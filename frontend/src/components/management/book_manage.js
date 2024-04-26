@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./book_manage.css";
 import BookPopup from "./book_popup.js";
+import { json } from "react-router-dom";
 
 function ManageBooks() {
   const [books, setBooks] = useState([
@@ -11,27 +12,67 @@ function ManageBooks() {
       producer: "abcd",
       category: "aaa",
       price: "100000",
-      des: "test",
+      description: "test",
     },
+    {
+      id: "2",
+      title: "abcde",
+      author: "abcda",
+      producer: "abcdb",
+      category: "aaak",
+      price: "100000",
+      description: "test1",
+    }
   ]);
   const [searchKeyword, setSearchKeyword] = useState("");
   const [popupBook, setPopupBook] = useState(null);
   const [popupType, setPopupType] = useState("");
+  const [cover, setCover] = useState(['https://s3-sgn09.fptcloud.com/codelearnstorage/Upload/Blog/react-js-co-ban-phan-1-63738082145.3856.jpg'])
 
-  const handleEditBook = (book) => {
+  const handleEditBook = async (book) => {
     setPopupType("edit");
     setPopupBook(book);
+    console.log(book)
+    // try {
+    //   const response = await fetch(`https://api.example.com/${book.id}`);
+    //   if (!response.ok) {
+    //     throw new Error('Failed to fetch data');
+    //   }
+    //   const json = await response.json();
+    //   setCover(json)
+    // } catch (error) {
+    //   console.log(error)
+    // }
   };
 
   const handleAddBook = () => {
     setPopupType("add");
     setPopupBook(null);
+    setCover(null);
   };
 
   const handleClosePopup = () => {
     setPopupType("");
     setPopupBook(null);
   };
+
+  const handleDeleteBook = (id) => {
+    try {
+      fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
+      method: "DELETE",
+    })
+      .then(response => response.json())
+      .then(() => {
+        setBooks(values => {
+          return values.filter(books => books.id !== id)
+        })
+        console.log("Book deleted successfully");
+      })
+      
+    } catch (error) {
+      console.log(error)
+    }
+  }
 
   const handleSearchBooks = (e) => {
     setSearchKeyword(e.target.value);
@@ -80,7 +121,7 @@ function ManageBooks() {
                   >
                     Chỉnh sửa
                   </button>
-                  <button className="btn btn-danger">Xóa</button>
+                  <button className="btn btn-danger" onClick={() => handleDeleteBook(book.id)}>Xóa</button>
                 </td>
               </tr>
             ))}
@@ -102,6 +143,7 @@ function ManageBooks() {
             <BookPopup
               book={popupBook}
               type={popupType}
+              cover={cover}
               onClose={handleClosePopup}
             />
       )}
