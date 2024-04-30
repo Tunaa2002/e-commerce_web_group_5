@@ -48,3 +48,13 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2024-04-12 10:59:55
+
+INSERT INTO category (category_id, name) VALUES
+(1, 'Tiểu thuyết'),
+(2, 'Kỹ năng'),
+(3, 'Thiếu nhi'),
+(4, 'Học thuật'),
+(5, 'Nấu ăn & ẩm thực'),
+(6, 'Y học & sức khỏe'),
+(7, 'Văn hóa & du lịch'),
+(8, 'Học ngoại ngữ');
