@@ -19,3 +19,33 @@
     width: 75%;
     float: left;
 }
+
+.news-content {
+    width: 100%;
+    margin-bottom: 32px;
+    display: flex;
+}
+
+.news-img {
+    width: 30%;
+    display: inline-block;
+}
+
+.news-text {
+    width: 70%;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.news-text .title {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.news-text .title:hover {
+    color: #ff5c00;
+}
+
+.news-text p {
+    font-size: 13px;
+}

@@ -1,3 +1,9 @@
+.clear-fix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
 .top-header {
 display: flex;
 }
@@ -136,71 +142,35 @@ display: flex;
     color: #ccc !important;
 }
 
-.search-container {
-    display: block;
-    margin: 16px 0;
-}
-
 .nav-list {
     display: none;
     float: left;
 }
 
-@media (max-width: 768px) {
-    .top-header {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .header-logo {
-      width: 100%;
-      text-align: center;
-      padding: 12px 0;
-    }
-  
+@media (max-width: 450px) {
     .header-info {
-      width: 100%;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-    }
+        justify-content: flex-end;
+      }
+    
+      .input-group {
+        margin-right: 150px !important;
+        width: 30%;
+      }
+}
   
-    .header-info > div {
-      padding: 12px 0;
-    }
-  
-    .input-group {
-      position: static;
-      margin: 20px auto;
-    }
-  
-    .account {
-      position: static;
-      margin-top: 20px;
-      text-align: center;
-    }
-  }
-  
-  /* For screens larger than 768px */
-  @media (min-width: 769px) {
+@media (max-width: 768px) {
     .header-info {
       justify-content: flex-end;
     }
   
     .input-group {
       margin-right: 170px;
-      max-width: 320px;
+      width: 40%;
     }
-  
-  }
+}
 
-  @media (max-width: 992px) {
-    .search-container {
-        display: inline-block !important;
-    }
-    .search-container .input-group {
-        /* margin: 16px 0; */
-    }
+/* For screens smaller than 993px */
+@media (max-width: 992px) {
     .me-auto {
         display: none;
     }
@@ -214,4 +184,43 @@ display: flex;
         color: #fff;
         padding: 6px 16px;
     }
-  } 
+
+    .header-info .delivery:not(.cart) {
+        display: none;
+    }
+
+    .header-info {
+        justify-content: flex-end;
+      }
+
+    .input-group {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 200px;
+        max-width: 220px;
+    }
+} 
+
+@media (max-width: 1200px) {
+    .input-group {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 180px;
+        max-width: 260px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .input-group {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 180px;
+        max-width: 260px;
+    }
+}
