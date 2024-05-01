@@ -23,6 +23,7 @@ function SignUp() {
         // Kiểm tra mật khẩu nhập lại
         if (formData.password !== formData.repassword) {
             console.error("Mật khẩu nhập lại không khớp");
+            alert("Mật khẩu nhập lại không khớp");
             return; // Ngăn chặn việc gửi yêu cầu nếu mật khẩu nhập lại không khớp
         }
     
@@ -45,7 +46,7 @@ function SignUp() {
         })
         .then(response => {
             if (response.ok) {
-                console.log("User signed up successfully");
+                console.log("Đăng ký thành công");
                 setIsSignUpSuccess(true); // Đặt isSignUpSuccess thành true nếu đăng ký thành công
                 // Xử lý khi đăng ký thành công, ví dụ: chuyển hướng đến trang đăng nhập
                 

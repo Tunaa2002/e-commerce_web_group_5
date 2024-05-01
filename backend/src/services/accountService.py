@@ -1,4 +1,5 @@
 from src.config.mysqlConnection import my_sql_config
+from passlib.hash import sha256_crypt
 
 class SignUpService:
     def __init__(self):
@@ -6,11 +7,11 @@ class SignUpService:
 
     def sign_up_user(self, name, username, password, phone, email):
         try:
+            hashed_password = sha256_crypt.hash(password)
+            # print("Mật khẩu đã mã hóa:", hashed_password)
             with self.connection.cursor() as cursor:
-                # Thực hiện truy vấn INSERT
                 query = "INSERT INTO user (name, username, password, phone, email, role) VALUES (%s, %s, %s, %s, %s, 0)"
-                cursor.execute(query, (name, username, password, phone, email))
-                # Commit thay đổi vào cơ sở dữ liệu
+                cursor.execute(query, (name, username, hashed_password, phone, email))
                 self.connection.commit()
                 return True
         except Exception as e:
@@ -24,13 +25,14 @@ class SignInService:
     def sign_in_user(self, username, password):
         try:
             with self.connection.cursor() as cursor:
-                query = "SELECT username, password, role FROM user WHERE username = %s AND password = %s"
-                cursor.execute(query, (username, password))
+                query = "SELECT username, password, role FROM user WHERE username = %s"
+                cursor.execute(query, (username,))
                 result = cursor.fetchone()
                 if result:
-                    return {'username': result[0], 'password': result[1], 'role': result[2]}  # trả về username và password nếu tìm thấy
-                else:
-                    return None  # trả về none nếu không thấy
+                    stored_password = result[1]
+                    if sha256_crypt.verify(password, stored_password):
+                        return {'username': result[0], 'role': result[2]}
+                return None
         except Exception as e:
             print("Error:", e)
             return None

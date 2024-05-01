@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
 import "./sign_in.css";
-import { useHistory } from "react-router-dom";
 
 function SignIn() {
     // const history = useHistory();
@@ -20,9 +19,6 @@ function SignIn() {
         username: formData.username,
         password: formData.password
     };
-    const handleLoginSuccess = (username) => {
-        handleLoginSuccess(username);
-      };
 
     const handleSubmit = (e) => {
         e.preventDefault();
