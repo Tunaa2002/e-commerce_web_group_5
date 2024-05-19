@@ -48,3 +48,23 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2024-04-12 10:59:55
+
+INSERT INTO producer (name)
+VALUES 
+('Hội Nhà Văn'),
+('NXB Thế Giới'),
+('NXB Kim Đồng'),
+('NXB Trẻ'),
+('NXB Dân Trí'),
+('NXB Tri Thức'),
+('NXB Tổng Hợp TPHCM'),
+('NXB Thanh Niên'),
+('NXB Phụ Nữ Việt Nam'),
+('NXB Văn Học'),
+('NXB Lao Động'),
+('NXB Văn Hóa Thông Tin'),
+('NXB Công Thương'),
+('NXB Thanh Hóa'),
+('NXB Đà Nẵng'),
+('NXB Hồng Đức'),
+('NXB Đại Học Quốc Gia Hà Nội');
