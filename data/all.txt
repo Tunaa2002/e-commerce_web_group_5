@@ -1,0 +1,415 @@
+1. Tiểu thuyết: 
+	1. https://www.fahasa.com/cay-cam-ngot-cua-toi.html
+		+ Tên: Cây Cam Ngọt Của Tôi
+		+ Giá: 75.600
+		+ Tác giả: José Mauro de Vasconcelos
+		+ NXB: Hội Nhà Văn
+	2. https://www.fahasa.com/len-nhat-chuyen-doi-404720.html
+		+ Tên: Lén Nhặt Chuyện Đời
+		+ Giá: 42.500
+		+ Tác giả: Mộc Trầm
+		+ NXB: Thế Giới
+	3. https://www.fahasa.com/nha-gia-kim-tai-ban-2020.html
+		+ Tên: Nhà Giả Kim
+		+ Giá: 55.300
+		+ Tác giả: Paulo Coelho
+		+ NXB: Hội Nhà Văn
+	4. https://www.fahasa.com/truong-ca-achilles.html
+		+ Tên: Trường Ca Achilles
+		+ Giá: 113.880
+		+ Tác giả: Madeline Miller
+		+ NXB: Kim Đồng
+	5. https://www.fahasa.com/nhat-ky-dang-thuy-tram-tai-ban-2022.html
+		+ Tên: Nhật kí của Đặng Thùy Trâm
+		+ Giá: 78.300
+		+ Tác giả: Đặng Thùy Trâm
+		+ NXB: Hội Nhà Văn
+	6. https://www.fahasa.com/totto-chan-ben-cua-so-tai-ban-2019.html
+		+ Tên: Totto-Chan Bên Cửa Sổ
+		+ Giá: 88.200
+		+ Tác giả: Kuroyanagi Tetsuko
+		+ NXB: Hội Nhà Văn
+	7. https://www.fahasa.com/buoc-cham-lai-giua-the-gian-voi-va-tai-ban-2018.html
+		+ Tên: Bước Chậm Lại Giữa Thế Gian Vội Vã
+		+ Giá: 76.500
+		+ Tác giả: Paulo Coelho
+		+ NXB: Hội Nhà Văn
+	8. https://www.fahasa.com/dune-xu-cat.html
+		+ Tên: Dune - Xứ Cát
+		+ Giá: 174.300
+		+ Tác giả: Frank Herbert
+		+ NXB: Hội Nhà Văn
+	9. https://www.fahasa.com/mot-thoang-ta-ruc-ro-o-nhan-gian.html
+		+ Tên: Một Thoáng Ta Rực Rỡ Ở Nhân Gian
+		+ Giá: 121.500
+		+ Tác giả: Ocean Vuong
+		+ NXB: Hội Nhà Văn
+	10. https://www.fahasa.com/bien-the-cua-co-don.html
+		+ Tên: Biến Thể Của Cô Đơn
+		+ Giá: 63.000
+		+ Tác giả: Yang Phan
+		+ NXB: Trẻ
+
+2. Kỹ năng
+	1. https://www.fahasa.com/thay-doi-ti-hon-hieu-qua-bat-ngo-tbl6.html?fhs_campaign=CATEGORY
+		+ Tên: Thay Đổi Tí Hon Hiệu Quả Bất Ngờ
+		+ Giá: 132.300
+		+ Tác giả: James Clear
+		+ NXB: Thế Giới
+	2. https://www.fahasa.com/38-buc-thu-rockefeller-gui-cho-con-trai-sbooks.html?fhs_campaign=CATEGORY
+		+ Tên: 38 Bức Thư Rockefeller Gửi Cho Con Trai
+		+ Giá: 69.000
+		+ Tác giả: Thanh Hương
+		+ NXB: Văn Học
+	3. https://www.fahasa.com/con-duong-chang-may-ai-di.html
+		+ Tên: Con Đường Chẳng Mấy Ai Đi
+		+ Giá: 107.250
+		+ Tác giả: M. Scott Peck
+		+ NXB: Dân Trí
+	4. https://www.fahasa.com/tu-duy-nguoc.html
+		+ Tên: Tư Duy Ngược
+		+ Giá: 69.500
+		+ Tác giả: Nguyễn Anh Dũng
+		+ NXB: Dân Trí
+	5. https://www.fahasa.com/tu-duy-mo.html
+		+ Tên: Tư Duy Mở
+		+ Giá: 69.000
+		+ Tác giả: Nguyễn Anh Dũng
+		+ NXB: Dân Trí
+	6. https://www.fahasa.com/mot-doi-nhu-ke-tim-duong.html
+		+ Tên: Một Đời Như Kẻ Tìm Đường
+		+ Giá: 157.500
+		+ Tác giả: Phan Văn Trường
+		+ NXB: Trẻ
+	7. https://www.fahasa.com/manifest-7-buoc-de-thay-doi-cuoc-doi-ban-mai-mai.html
+		+ Tên: Manifest - 7 Bước Để Thay Đổi Cuộc Đời Bạn Mãi Mãi
+		+ Giá: 57.850
+		+ Tác giả: Roxie Nafousi (đã add)
+		+ NXB: Thế Giới
+	8. https://www.fahasa.com/mot-doi-duoc-mat.html
+		+ Tên: Một Đời Được Mất
+		+ Giá: 90.350
+		+ Tác giả: Vãn Tình
+		+ NXB: Thế Giới
+	9. https://www.fahasa.com/dung-viec-mot-goc-nhin-ve-cau-chuyen-khai-minh-bia-cung-tai-ban-2023-440947.html
+		+ Tên: Đúng Việc - Một Góc Nhìn Về Câu Chuyện Khai Minh
+		+ Giá: 81.250
+		+ Tác giả: Giản Tư Trung (đã add)
+		+ NXB: Tri Thức
+	10. https://www.fahasa.com/hieu-ve-trai-tim-tai-ban-2023.html
+		+ Tên: Hiểu Về Trái Tim
+		+ Giá: 123.240
+		+ Tác giả: Minh Niệm
+		+ NXB: Tổng Hợp TPHCM
+
+3. Thiếu Nhi
+	1. https://www.fahasa.com/gia-dinh-than-yeu-556331.html?fhs_campaign=CATEGORY
+		+ Tên: Gia Đình Thân Yêu
+		+ Giá: 34.200
+		+ Tác giả: Lương Anh
+		+ NXB: Thanh niên
+	2. https://www.fahasa.com/truyen-co-grimm-tai-ban-2024.html?fhs_campaign=CATEGORY
+		+ Tên: Truyện Cổ Grimm
+		+ Giá: 144.000
+		+ Tác giả: Val Biro
+		+ NXB: Kim Đồng
+	3. https://www.fahasa.com/gia-dinh-trai-cay.html?fhs_campaign=CATEGORY
+		+ Tên: Gia Đình Trái Cây
+		+ Giá: 45.000
+		+ Tác giả: Thiên Tâm
+		+ NXB: Kim Đồng
+	4. https://www.fahasa.com/ben-bep-lua-nha-dai.html?fhs_campaign=CATEGORY
+		+ Tên: Bên Bếp Lửa Nhà Dài
+		+ Giá: 49.500
+		+ Tác giả: Nguyễn Hồng Chiến
+		+ NXB: Kim Đồng
+	5. https://www.fahasa.com/gau-truc-mut-cam.html?fhs_campaign=CATEGORY
+		+ Tên: Gấu Trúc Mứt Cam
+		+ Giá: 60.000
+		+ Tác giả: David Wallliams
+		+ NXB: Hội Nhà Văn
+	6. https://www.fahasa.com/nhoc-gau-thich-hu.html?fhs_campaign=CATEGORY
+		+ Tên: Nhóc Gấu Thích Hù
+		+ Giá: 60.000
+		+ Tác giả: Tony Ross
+		+ NXB: Hội Nhà Văn
+	7. https://www.fahasa.com/12-khuc-ca-cua-su-song.html?fhs_campaign=CATEGORY
+		+ Tên: 12 Khúc Ca Của Sự Sống
+		+ Giá: 61.200
+		+ Tác giả: Đoàn Lập Hân
+		+ NXB: Phụ Nữ Việt Nam
+	8. https://www.fahasa.com/chau-la-co-tich.html?fhs_campaign=CATEGORY
+		+ Tên: Cháu Là Cổ Tích
+		+ Giá: 54.000
+		+ Tác giả: Đoàn Vị Thượng
+		+ NXB: Kim Đồng
+	9. https://www.fahasa.com/chu-de-dem-trang.html?fhs_campaign=CATEGORY
+		+ Tên: Chú Dế Đêm Trăng
+		+ Giá: 54.000
+		+ Tác giả: Mai Quyên
+		+ NXB: Kim Đồng
+	10. https://www.fahasa.com/hat-bap-vo-tay.html?fhs_campaign=CATEGORY
+		+ Tên: Hạt Bắp Vỗ Tay
+		+ Giá: 54.000
+		+ Tác giả: Nguyễn Thánh Ngã
+		+ NXB: Kim Đồng
+
+4. Học Thuật
+	1. https://bookbuy.vn/sach/song-ca-ne-doi-khong-ne-p133248.html
+		+ Tên: Sống Cả Đời Không Nể
+		+ Giá: 118.000
+		+ Tác giả: Mộ Vân Chí
+		+ NXB: Dân Trí
+	2. https://bookbuy.vn/sach/dinh-luat-murphy-lam-sao-de-nhung-viec-ban-lo-lang-se-khong-xay-ra-p133246.html
+		+ Tên: Định Luật Murphy - Làm Sao Để Những Việc Bạn Lo Lắng Sẽ Không Xảy Ra
+		+ Giá: 109,500
+		+ Tác giả: Lý Thế Cường
+		+ NXB: Văn Học
+	3. https://bookbuy.vn/sach/lam-gi-khi-con-noi-loan--p133244.html
+		+ Tên: Làm Gì Khi Con Nổi Loạn
+		+ Giá: 153,000
+		+ Tác giả: Charles Sophy
+		+ NXB: Thế Giới
+	4. https://bookbuy.vn/sach/trai-tim-kim-cuong-p133238.html
+		+ Tên: Trái Tim Kim Cương
+		+ Giá: 152.000
+		+ Tác giả: Cao Thanh		
+		+ NXB: Thế Giới
+	5. https://bookbuy.vn/sach/bac-ho-voi-thieu-nien-nhi-dong-p133236.html
+		+ Tên: Bác Hồ Với Thiếu Niên Nhi Đồng
+		+ Giá: 42.500
+		+ Tác giả: Hà Minh Hồng
+		+ NXB: Trẻ
+	6. https://bookbuy.vn/sach/doc-vi-tam-ly-dan-ong-p133220.html
+		+ Tên: Đọc Vị Tâm Lý Đàn Ông
+		+ Giá: 126,500
+		+ Tác giả: Bruce Bryans
+		+ NXB: Dân Trí
+	7. https://bookbuy.vn/sach/red-flag-trong-tinh-yeu-p133208.html
+		+ Tên: Red Flag Trong Tình Yêu
+		+ Giá: 126.500
+		+ Tác giả: Bruce Bryans
+		+ NXB: Lao Động
+	8. https://bookbuy.vn/sach/tran-chien-10-nam-truoc-cuoc-doi-10-nam-sau-p132200.html
+		+ Tên: Trận Chiến 10 Năm Trước, Cuộc Đời 10 Năm Sau
+		+ Giá: 109.500
+		+ Tác giả: Triệu Nhuận
+		+ NXB: Thế Giới
+	9. https://bookbuy.vn/sach/tam-ly-hoc-that-ky-dieu-p131182.html
+		+ Tên: Tâm Lý Học Thật Kỳ Diệu
+		+ Giá: 178.500
+		+ Tác giả: Đặng Hồng Quân
+		+ NXB: Phụ Nữ Việt Nam
+	10. https://bookbuy.vn/sach/vuon-len-tu-nghich-canh-ren-tinh-kien-cuong-moi-ngay-p131150.html
+		+ Tên: Vươn Lên Từ Nghịch Cảnh - Rèn Tính Kiên Cường Mỗi Ngày
+		+ Giá: 130,500
+		+ Tác giả: Karen Forshaw
+		+ NXB: Trẻ
+
+5. Nấu ăn & Ẩm thực
+	1. https://www.fahasa.com/viet-nam-mien-ngon-396761.html
+		+ Tên: Việt Nam Miền Ngon
+		+ Giá: 134,850
+		+ Tác giả: Lê Rin
+		+ NXB: Lao Động
+	2. https://www.fahasa.com/tiem-ca-phe-tai-nha.html
+		+ Tên: Tiệm Cà Phê Tại Nhà
+		+ Giá: 78,400
+		+ Tác giả: WOW
+		+ NXB: Thế Giới
+	3. https://www.fahasa.com/nau-an-ngon-mon-an-hang-ngay.html
+		+ Tên: Nấu Ăn Ngon - Món Ăn Hàng Ngày
+		+ Giá: 22,200
+		+ Tác giả: Cẩm Tuyết
+		+ NXB: Văn Hóa Thông Tin
+	4. https://www.fahasa.com/kombucha-tuyet-dinh-thuc-uong-len-men.html
+		+ Tên: Kombucha - Tuyệt Đỉnh Thức Uống Lên Men
+		+ Giá: 192,000
+		+ Tác giả: Hannah Crum
+		+ NXB: Phụ Nữ Việt Nam
+	5. https://www.fahasa.com/nem-vi-an-nhien-mon-an-lanh-voi-tat-ca-yeu-thuong.html
+		+ Tên: Nếm Vị An Nhiên: Món An Lành Với Tất Cả Yêu Thương
+		+ Giá: 64,500
+		+ Tác giả: Xuân Phương
+		+ NXB: Công Thương
+	6. https://www.fahasa.com/80-cong-thuc-lam-nuoc-ep-va-sinh-to-bo-duong-va-thanh-loc-co-the.html
+		+ Tên: 80 Công Thức Làm Nước Ép Và Sinh Tố - Bổ Dưỡng Và Thanh Lọc Cơ Thể
+		+ Giá: 45,000
+		+ Tác giả: Tường Vân
+		+ NXB: Phụ Nữ Việt Nam
+	7. https://www.fahasa.com/100-mon-banh-ngon-tb-2023-dzoan-van.html
+		+ Tên: Tự Học Làm Bánh - 100 Món Bánh Ngon
+		+ Giá: 39,000
+		+ Tác giả: Nguyễn Doãn Cẩm Vân
+		+ NXB: Phụ Nữ Việt Nam
+	8. https://www.fahasa.com/80-ngay-an-khap-the-gioi-mot-cuon-sach-nau-an-phieu-luu-dau-tien-danh-cho-tre-em-tai-ban-2019.html
+		+ Tên: 80 Ngày Ăn Khắp Thế Giới
+		+ Giá: 162,000
+		+ Tác giả: Phan Anh
+		+ NXB: Kim Đồng
+	9. https://www.fahasa.com/4-mua-cookies-100-cong-thuc-banh-quy-sieu-de-lam-tai-nha.html
+		+ Tên: 4 Mùa Cookies - 100 Công Thức Bánh Quy Siêu Dễ Làm Tại Nhà
+		+ Giá: 215.100
+		+ Tác giả: Sarah Kieffer
+		+ NXB: Thế Giới
+	10. https://www.fahasa.com/am-thuc-chinh-phuc-the-gioi-mon-len-men.html
+		+ Tên: Ẩm Thực Chinh Phục Thế Giới - Món Lên Men
+		+ Giá: 58,500
+		+ Tác giả: Uyển Nhi
+		+ NXB: Kim Đồng
+
+6. Y học & Sức Khỏe
+	1. https://www.fahasa.com/co-the-tu-chua-lanh.html?fhs_campaign=y-hoc-suc-khoe
+		+ Tên: Cơ Thể Tự Chữa Lành
+		+ Giá: 144,000
+		+ Tác giả: Anthony William
+		+ NXB: Thanh Niên
+	2. https://www.fahasa.com/sao-chung-ta-lai-ngu-why-we-sleep.html?fhs_campaign=y-hoc-suc-khoe
+		+ Tên: Sao Chúng Ta Lại Ngủ - Why We SLeep
+		+ Giá: 181,770
+		+ Tác giả: Matthew Walker
+		+ NXB: Lao Động
+	3. https://www.fahasa.com/y-hoc-suc-khoe-tam-benh-hoc.html?fhs_campaign=y-hoc-suc-khoe
+		+ Tên: Y Học Sức Khỏe - Tâm Bệnh Học
+		+ Giá: 130,500
+		+ Tác giả: Phạm Toàn
+		+ NXB: Trẻ
+	4. https://www.fahasa.com/song-lanh-de-tre.html?fhs_campaign=y-hoc-suc-khoe
+		+ Tên: Sống Lành Để Trẻ
+		+ Giá: 76,500
+		+ Tác giả: Norman W Walker
+		+ NXB: Công Thương
+	5. https://www.fahasa.com/ung-thu-tin-don-va-su-that.html?fhs_campaign=y-hoc-suc-khoe
+		+ Tên: Ung Thư: Tin Đồn Và Sự Thật
+		+ Giá: 134,100
+		+ Tác giả: Ruy Băng Tím
+		+ NXB: Dân Trí
+	6. https://www.fahasa.com/nang-luong-song-tu-thao-duoc.html?fhs_campaign=y-hoc-suc-khoe
+		+ Tên: Năng Lượng Sống Từ Thảo Dược
+		+ Giá: 292,500
+		+ Tác giả: Rosalee De La Forêt
+		+ NXB: Thanh Niên
+	7. https://www.fahasa.com/nhung-dieu-can-biet-ve-co-the-nguoi-va-cach-phong-tranh-benh-tat-da-co-xuong-khop-va-ngu-quan.html?fhs_campaign=y-hoc-suc-khoe
+		+ Tên: Những Điều Cần Biết Về Cơ Thể Người Và Cách Phòng Tránh Bệnh Tật - Da - Cơ Xương Khớp Và Ngũ Quan
+		+ Giá: 48,600
+		+ Tác giả: GS.TS.NGND Nguyễn Lân Dũng
+		+ NXB: Phụ Nữ Việt Nam
+	8. https://www.fahasa.com/nhung-dieu-can-biet-ve-co-the-nguoi-va-cach-phong-tranh-benh-tat-he-ho-hap-he-tuan-hoan-he-tieu-hoa-he-tiet-nieu.html?fhs_campaign=y-hoc-suc-khoe
+		+ Tên: Những Điều Cần Biết Về Cơ Thể Người Và Cách Phòng Tránh Bệnh Tật - Hệ Hô Hấp, Hệ Tuần Hoàn, Hệ Tiêu Hóa, Hệ Tiết Niệu
+		+ Giá: 36,000
+		+ Tác giả: GS.TS.NGND Nguyễn Lân Dũng
+		+ NXB: Phụ Nữ Việt Nam
+	9. https://www.fahasa.com/cam-nang-huong-dan-thai-doc-che-do-an-uong-lanh-manh.html?fhs_campaign=y-hoc-suc-khoe
+		+ Tên: Cẩm Nang Hướng Dẫn Thải Độc & Chế Độ Ăn Uống Lành Mạnh
+		+ Giá: 130,500
+		+ Tác giả: Trần Bích Hà
+		+ NXB: Thế Giới
+	10. https://www.fahasa.com/so-tay-tim-huyet-2019.html?fhs_campaign=y-hoc-suc-khoe
+		+ Tên: Số Tay Tìm Huyệt
+		+ Giá: 61,200
+		+ Tác giả: Đỗ Đức Ngọc
+		+ NXB: Thanh Hóa
+
+7. Văn hóa & Du lịch
+	1. https://www.fahasa.com/huynh-thi-bao-hoa-van-de-phu-nu-o-nuoc-ta.html
+		+ Tên: Huỳnh Thị Bảo Hòa - Vấn Đề Phụ Nữ Ở Nước Ta
+		+ Giá: 135,000
+		+ Tác giả: Huỳnh Thị Bảo Hòa 
+		+ NXB: Phụ Nữ Việt Nam
+	2. https://www.fahasa.com/river-of-the-gods-dong-song-cua-nhung-vi-than.html
+		+ Tên: River Of The Gods - Dòng Sông Của Những Vị Thần
+		+ Giá: 151,200
+		+ Tác giả: Candice Millard
+		+ NXB: Thanh Niên
+	3. https://www.fahasa.com/hon-anime-hop-tac-cung-sang-tao-va-cau-chuyen-thanh-cong-cua-truyen-thong-nhat-ban.html
+		+ Tên: Hồn Anime - Hợp Tác Cùng Sáng Tạo Và Câu Chuyện Thành Công Của Truyền Thông Nhật Bản
+		+ Giá: 176,000
+		+ Tác giả: Ian Condry
+		+ NXB: Phụ Nữ Việt Nam
+	4. https://www.fahasa.com/chua-viet-nam-di-tich-lich-su-van-hoa-cap-quoc-gia.html
+		+ Tên: Chùa Việt Nam - Di Tích Lịch Sử, Văn Hóa Cấp Quốc Gia
+		+ Giá: 448,200
+		+ Tác giả: Trương Phúc Nguyên
+		+ NXB: Lao Động
+	5. https://www.fahasa.com/tim-hieu-phong-tuc-nghi-le-tho-cung-cua-nguoi-viet-va-cac-bai-van-khan-thuong-dung.html
+		+ Tên: Tìm Hiểu Phong Tục, Nghi Lễ Thờ Cúng Của Người Việt Và Các Bài Văn Khấn Thường Dùng
+		+ Giá: 355,500
+		+ Tác giả: Nguyễn Phương
+		+ NXB: Lao Động
+	6. https://www.fahasa.com/vietnamese-art-bia-cung.html
+		+ Tên: Vietnamese Art - Bìa Cứng
+		+ Giá: 180,000
+		+ Tác giả: Nhiều Tác Giả
+		+ NXB: Kim Đồng
+	7. https://www.fahasa.com/chuyen-com-hoi-an-thuc-an-va-cong-dong-o-mot-do-thi-viet-nam.html
+		+ Tên: Chuyện Cơm Hội An - Thức Ăn Và Cộng Đồng Ở Một Đô Thị Việt Nam
+		+ Giá: 229,500
+		+ Tác giả: Nir Avieli
+		+ NXB: Đà Nẵng
+	8. https://www.fahasa.com/lich-su-khan-hoang-mien-nam-tai-ban-2024.html
+		+ Tên: Lịch Sử Khẩn Hoang Miền Nam
+		+ Giá: 103,500
+		+ Tác giả: Sơn Nam
+		+ NXB: Trẻ
+	9. https://www.fahasa.com/thu-vien-cua-nhung-than-tuong.html
+		+ Tên: Thư Viện Của Những Thần Tượng
+		+ Giá: 95,500
+		+ Tác giả: Lee Ha-Young
+		+ NXB: Văn Học
+	10. https://www.fahasa.com/danh-lam-thang-canh-viet-nam-va-nuoc-duc.html
+		+ Tên: Danh Lam Thắng Cảnh Việt Nam Và Nước Đức
+		+ Giá: 108,000
+		+ Tác giả: Dương Đình Bá
+		+ NXB: Thế Giới
+
+8. Học Ngoại Ngữ 
+	1. https://www.fahasa.com/tap-viet-chu-han-theo-giao-trinh-han-ngu-phien-ban-moi-412020.html
+		+ Tên: Tập Viết Chữ Hán
+		+ Giá: 63,700
+		+ Tác giả: Kaixin
+		+ NXB: Hồng Đức
+	2. https://www.fahasa.com/chem-tieng-anh-khong-can-dong-nao-tang-kem-bo-video-luyen-nghe-noi-so-hoc-tu-vung.html
+		+ Tên: “Chém" Tiếng Anh Không Cần Động Não
+		+ Giá: 126,750
+		+ Tác giả: Bino Chém Tiếng Anh
+		+ NXB: Thế Giới
+	3. https://www.fahasa.com/nuance-50-sac-thai-cua-tu.html
+		+ Tên: Nuance - 50 Sắc Thái Của Từ
+		+ Giá: 103,350
+		+ Tác giả: Kenvin Kang
+		+ NXB: Thế Giới
+	4. https://www.fahasa.com/giai-thich-ngu-phap-tieng-anh-tai-ban-2022.html
+		+ Tên: Giải Thích Ngữ Pháp Tiếng Anh
+		+ Giá: 143,000
+		+ Tác giả: Mai Lan Hương
+		+ NXB: Đà Nẵng
+	5. https://www.fahasa.com/tu-hoc-2000-tu-vung-tieng-anh-theo-chu-de-182109.html
+		+ Tên: Tự Học 2000 Từ Vựng Tiếng Anh Theo Chủ Đề
+		+ Giá: 42,250
+		+ Tác giả: The Windy
+		+ NXB: Đại Học Quốc Gia Hà Nội
+	6. https://www.fahasa.com/mindmap-english-grammar-ngu-phap-tieng-anh-bang-so-do-tu-duy.html
+		+ Tên: Mindmap English Grammar - Ngữ Pháp Tiếng Anh Bằng Sơ Đồ Tư Duy
+		+ Giá: 123,500
+		+ Tác giả: Đỗ Nhung
+		+ NXB: Hồng Đức
+	7. https://www.fahasa.com/mind-map-english-vocabulary-tu-vung-tieng-anh-qua-so-do-tu-duy.html
+		+ Tên: Mind Map English Vocabulary - Từ Vựng Tiếng Anh Qua Sơ Đồ Tư Duy
+		+ Giá: 128,700
+		+ Tác giả: Hoàng Ngân
+		+ NXB: Hồng Đức
+	8. https://www.fahasa.com/tie-ng-anh-cho-nguo-i-ba-t-da-u-tb2023-431247.html
+		+ Tên: Tiếng Anh Cho NgườI Bắt Đầu
+		+ Giá: 149,000
+		+ Tác giả: Trang Anh
+		+ NXB: Hồng Đức
+	9. https://www.fahasa.com/tu-hoc-tieng-duc-cho-nguoi-moi-bat-dau-nxb-hd-download-cd-tb.html
+		+ Tên: Tự Học Tiếng Đức Cho Người Mới Bắt Đầu
+		+ Giá: 100,050
+		+ Tác giả: Nguyễn Hoàng Vĩnh Lộc
+		+ NXB: Hồng Đức
+	10. https://www.fahasa.com/tu-hoc-tieng-trung-cho-nguoi-moi-bat-dau-tai-ban-2023.html
+		+ Tên: Tự Học Tiếng Trung Cho Người Mới Bắt Đầu
+		+ Giá: 61,750
+		+ Tác giả: The Zhishi
+		+ NXB: Hồng Đức
