@@ -1,7 +1,8 @@
 from flask import Blueprint, request, jsonify
 from src.controllers.accountController import SignUpController
 from src.controllers.accountController import SignInController
-
+from src.controllers.bookController import GetAllBooksController
+from src.controllers.bookController import GetBookByIDController
 
 router = Blueprint('router', __name__)
 sign_up_controller = SignUpController()
@@ -46,3 +47,18 @@ def sign_in():
             return jsonify({'error': 'Invalid role'}), 500
     else:
         return jsonify({'error': 'Failed to sign in'}), 401
+
+
+get_all_books_controller = GetAllBooksController()
+
+@router.route('/book-list', methods=['GET'])
+def get_all_books():
+    return get_all_books_controller.get_all_books()
+
+
+get_book_by_id_controller = GetBookByIDController()
+
+@router.route('/book/<int:book_id>', methods=['GET'])
+def get_book(book_id):
+    return get_book_by_id_controller.get_book()
+
