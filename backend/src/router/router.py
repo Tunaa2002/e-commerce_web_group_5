@@ -53,7 +53,14 @@ get_all_books_controller = GetAllBooksController()
 
 @router.route('/book-list', methods=['GET'])
 def get_all_books():
-    return get_all_books_controller.get_all_books()
+    try:
+        books = get_all_books_controller.get_all_books()
+        if books is not None:
+            return jsonify(books), 200
+        else:
+            return jsonify({"message": "Lỗi khi truy vấn dữ liệu sách."}), 500
+    except Exception as e:
+        return jsonify({"message": f"Lỗi hệ thống: {str(e)}"}), 500
 
 
 get_book_by_id_controller = GetBookByIDController()

@@ -4,8 +4,8 @@ import pymysql
 db_config = {
     'host': '127.0.0.1',
     'user': 'root',
-    'password': '123456',
-    'database': 'ecommerce',
+    'password': '123456789',
+    'database': 'e_commerce',
 }
 
 class MySQLConfig:

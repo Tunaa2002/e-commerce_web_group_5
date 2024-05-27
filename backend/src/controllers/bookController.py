@@ -5,11 +5,10 @@ from src.services.bookService import GetBookByIDService
 
 class GetAllBooksController:
     def __init__(self):
-        self.get_all_books_service = GetAllBooksService()
-        
+        self.book_service = GetAllBooksService()
+
     def get_all_books(self):
-        books_list = self.get_all_books_service.get_all_books
-        return jsonify(books_list), 200
+        return self.book_service.get_all_books()
     
 class GetBookByIDController:
     def __init__(self):
